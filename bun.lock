@@ -9,7 +9,7 @@
         "typescript": "^5.9.2",
       },
     },
-    "packages/skills": {
+    "packages/autilOS-skills": {
       "name": "@autilos/skills",
       "version": "0.0.0",
       "devDependencies": {
@@ -21,7 +21,7 @@
     },
   },
   "packages": {
-    "@autilos/skills": ["@autilos/skills@workspace:packages/skills"],
+    "@autilos/skills": ["@autilos/skills@workspace:packages/autilOS-skills"],
 
     "@turbo/darwin-64": ["@turbo/darwin-64@2.10.10", "", { "os": "darwin", "cpu": "x64" }, "sha512-gFDD+wRP5hWxBRghGyEbjpbLOY7aIU/wvsnKdMM7odQcp/wHMrnI83p0FyxxMRZnFH9ZD+S59MvcpOC5b+nrCA=="],
 
