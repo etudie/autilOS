@@ -32,7 +32,7 @@ autilOS/
 bun install       # install all workspace dependencies
 bun run validate  # validate every skill's SKILL.md
 bun run build     # validate + build the skills index + package skills to zips
-bun run package   # zip each skill into packages/skills/dist/<name>.zip
+bun run package   # zip each skill into packages/autilOS-skills/dist/<name>.zip
 ```
 
 Tasks are orchestrated by [Turborepo](https://turborepo.dev) (`turbo.json`) and
@@ -44,5 +44,5 @@ cached across runs.
 | ----------------- | ------------------------------------------------------------- |
 | `@autilos/skills` | Claude / Agent Skills, with validation and packaging tooling. |
 
-See [`packages/skills/README.md`](./packages/skills/README.md) for how to author
+See [`packages/autilOS-skills/README.md`](./packages/autilOS-skills/README.md) for how to author
 and package a skill.
