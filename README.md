@@ -1,6 +1,14 @@
-# nautilus (autilOS)
+# autilOS
 
 A **Bun + Turborepo** monorepo.
+
+## Lore
+
+**AutilOS** started as *Nautilus*. Named after the ship, the navigator, the idea of a vessel built to move through complex territory.
+
+Drop the **N** because NautilOS.com was taken. You'll get **AutilOS**: part *Nautilus*, part *OS*, with a quiet nod to the auDHD community that shapes a lot of how I think about clarity, agency, and human-centered systems.
+
+It's meant to feel less like a butler or assistant and more like a good helm: helping you steer without taking over. Like the ship in 20,000 Leagues Under the Sea by Jules Verne.
 
 ## Requirements
 

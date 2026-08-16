@@ -2,7 +2,7 @@
   "name": "autilos",
   "version": "0.0.0",
   "private": true,
-  "description": "autilOS (nautilus) monorepo",
+  "description": "autilOS monorepo",
   "type": "module",
   "packageManager": "bun@1.3.14",
   "workspaces": [
