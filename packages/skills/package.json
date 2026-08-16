@@ -1,0 +1,20 @@
+{
+  "name": "@autilos/skills",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude / Agent Skills collection with validation and packaging tooling",
+  "scripts": {
+    "validate": "bun run src/validate.ts",
+    "index": "bun run src/index-gen.ts",
+    "package": "bun run src/package.ts",
+    "build": "echo \"@autilos/skills: validate + index + package complete\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "gray-matter": "^4.0.3",
+    "typescript": "^5.9.2",
+    "zod": "^3.23.8"
+  }
+}

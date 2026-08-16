@@ -1,0 +1,20 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "validate": {
+      "outputs": []
+    },
+    "index": {
+      "dependsOn": ["validate"],
+      "outputs": ["dist/skills.index.json"]
+    },
+    "package": {
+      "dependsOn": ["validate"],
+      "outputs": ["dist/**"]
+    },
+    "build": {
+      "dependsOn": ["validate", "index", "package"],
+      "outputs": ["dist/**"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build / task outputs
+dist/
+.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Env
+.env
+.env.*
+!.env.example
